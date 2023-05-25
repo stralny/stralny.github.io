@@ -162,10 +162,7 @@ a:focus {
     top: 0px;
     left: 0px;
     z-index: 0;
-}
-.slideshow:after {
-    content: '';
-    background: transparent url(../img/pattern.png) repeat top left;
+	background: transparent url(../img/pattern.png) repeat top left;
 }
 .slideshow li span {
     width: 100%;
@@ -174,7 +171,7 @@ a:focus {
     top: 0px;
     left: 0px;
     color: transparent;
-    background-size: cover;
+    background-size: scroll;
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
