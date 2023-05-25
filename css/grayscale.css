@@ -253,8 +253,14 @@ a:focus {
 }
 
 .content-section {
+	width: 100%;
     padding-top: 100px;
+	position: sticky;
 	background-color: #000;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .download-section {
@@ -338,6 +344,8 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+	position: sticky;
+	background-color: #000;
 }
 
 footer p {
