@@ -57,11 +57,6 @@ a:focus {
     color: #1d9b6c;
 }
 
-.light {
-	font-size: 32px;
-    font-weight: 200;
-}
-
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -121,6 +116,11 @@ a:focus {
 
 .navbar-custom .nav li.active a:hover {
     color: #fff;
+}
+
+.light {
+	font-size: 36px;
+    font-weight: 200;
 }
 
 @media(min-width:768px) {
