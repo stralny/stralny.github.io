@@ -213,9 +213,9 @@ a:focus {
     line-height: 120px;
     color: rgba(169,3,41, 0.8);
 }
-.slideshow li:nth-child(1) span { background-image: url(../images/6.jpg) }
+.slideshow li:nth-child(1) span { background-image: url(../img/6.jpg) }
 .slideshow li:nth-child(2) span {
-    background-image: url(../images/5.jpg);
+    background-image: url(../img/5.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -223,7 +223,7 @@ a:focus {
     animation-delay: 6s;
 }
 .slideshow li:nth-child(3) span {
-    background-image: url(../images/4.jpg);
+    background-image: url(../img/4.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -231,7 +231,7 @@ a:focus {
     animation-delay: 12s;
 }
 .slideshow li:nth-child(4) span {
-    background-image: url(../images/3.jpg);
+    background-image: url(../img/3.jpg);
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
@@ -239,7 +239,7 @@ a:focus {
     animation-delay: 18s;
 }
 .slideshow li:nth-child(5) span {
-    background-image: url(../images/2.jpg);
+    background-image: url(../img/2.jpg);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -247,7 +247,7 @@ a:focus {
     animation-delay: 24s;
 }
 .slideshow li:nth-child(6) span {
-    background-image: url(../images/1.jpg);
+    background-image: url(../img/1.jpg);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
