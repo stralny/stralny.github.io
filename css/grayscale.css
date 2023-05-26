@@ -392,7 +392,7 @@ body {
 }
 .slideshow:after {
     content: '';
-    background: transparent url(../img/pattern.png) repeat top left;
+    background: transparent url(../img/slider/pattern.png) repeat top left;
 }
 .slideshow li span {
     width: 100%;
@@ -429,10 +429,10 @@ body {
 }
 .slideshow li div h3 {
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 160px;
+    font-size: 128px;
     padding: 0 30px;
     line-height: 120px;
-    color: rgba(169,3,41, 0.8);
+    color: rgba(166,45,77, 0.75);
 }
 .slideshow li:nth-child(1) span { background-image: url(../img/slider/6.jpg) }
 .slideshow li:nth-child(2) span {
