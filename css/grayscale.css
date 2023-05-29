@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #A62D4D;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #A62D4D;
 }
 
 .navbar-custom {
@@ -307,17 +307,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #A62D4D;
+    color: #A62D4D;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #A62D4D;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #A62D4D;
 }
 
 ul.banner-social-buttons {
