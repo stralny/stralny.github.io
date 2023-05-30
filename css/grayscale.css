@@ -320,30 +320,6 @@ a:focus {
     background-color: #A62D4D;
 }
 
-.ramka {
-    border-radius: 0;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.ramka-default {
-    border: 1px solid #A62D4D;
-    color: #A62D4D;
-    background-color: transparent;
-}
-
-.ramka-default:hover,
-.ramka-default:focus {
-    border: 1px solid #A62D4D;
-    outline: 0;
-    color: #000;
-    background-color: #A62D4D;
-}
-
 ul.banner-social-buttons {
     margin-top: 0;
 }
