@@ -278,7 +278,7 @@ a:focus {
 p.ramka-red
 	{
     	border-style: solid;
-        border-width: medium;
+        border-width: 2px;
         border-color: #A62D4D;
         border-radius: 8px;
   		padding: 10px;
