@@ -793,10 +793,10 @@ body {
     margin: 0;
 }
 .mejs__controls .mejs__play button:before{
-    content:"\f04b";
+    content:"fa-play";
 }
 .mejs__controls .mejs__pause button:before{
-    content:"\f04c";
+    content:"fa-pause";
 }
 .mejs__controls .mejs__time {
     width: 100%;
