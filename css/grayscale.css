@@ -793,10 +793,10 @@ body {
     margin: 0;
 }
 .mejs__controls .mejs__play button:before{
-    content:"fa-play";
+    content:"\fa-play";
 }
 .mejs__controls .mejs__pause button:before{
-    content:"fa-pause";
+    content:"\fa-pause";
 }
 .mejs__controls .mejs__time {
     width: 100%;
@@ -852,7 +852,7 @@ body {
     top: 0;
     margin: 0;
     line-height: 26px;
-    color: #100d28;
+    color: #100d2800;
 }
 .mejs__controls .mejs__time-rail .mejs__time-float-corner {
     top: auto;
