@@ -716,6 +716,167 @@ body {
 
 
 /*!
+ * ODTWARZACZ START ----------------------------------------------
+ */
+
+ .odtwarzacz {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 10px 20px 5px #222;
+    font-family: "Raleway",sans-serif;
+}
+.odtwarzacz-txt1 {
+    margin: 0;
+    font-size: 33px;
+    color: #fff;
+    padding: 0 10%;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.odtwarzacz-txt2 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ccc;
+    padding: 0 10%;
+    float: left;
+    width: 100%;
+    margin-top: 2px;
+}
+.odtwarzacz-play {
+    width: 100%;
+    display: block;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.mejs__button>button:focus {
+    outline: 0px dotted #999;
+}
+.mejs__container {
+    position: relative;
+    background-color: transparent;
+    min-width: auto !important;
+}
+.mejs__controls {
+    padding: 0 10%;
+    background: transparent !important;
+    display: block;
+    position: relative;
+}
+.mejs__controls div {
+    display: block;
+    float: left;
+    position: relative;
+}
+.mejs__controls .mejs__playpause-button {
+    position: absolute !important;
+    right: 10%;
+    bottom: 95%;
+    width: 40px;
+}
+.mejs__controls .mejs__playpause-button button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-family: FontAwesome;
+    font-size: 36px;
+    color: #A62D4D;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+.mejs__controls .mejs__play button:before{
+    content:"\f04b";
+}
+.mejs__controls .mejs__pause button:before{
+    content:"\f04c";
+}
+.mejs__controls .mejs__time {
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    color: #fff;
+    height: auto;
+    padding: 0;
+    overflow: visible;
+    min-width: 100%;
+}
+.mejs__controls .mejs__time span {
+    font-size: 15px;
+}
+.mejs__controls span.mejs__duration {
+    float: right;
+    text-align: right;
+    color: #ccc;
+}
+.mejs__controls span.mejs__currenttime {
+    font-weight: 700;
+    float: left;
+}
+.mejs__controls .mejs__time-rail {
+    width: 100%;
+    margin: 0;
+}
+.mejs__controls .mejs__time-rail span {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.mejs__controls .mejs__time-rail .mejs__time-loaded {
+    background: rgba(255,255,255,0.2);
+}
+.mejs__controls .mejs__time-rail .mejs__time-float {
+    display: none;
+    top: -40px;
+    width: 40px;
+    height: 25px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 10px;
+    background: #fff;
+    border: 0;
+}
+.mejs__controls .mejs__time-rail .mejs__time-float-current {
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0;
+    line-height: 26px;
+    color: #100d28;
+}
+.mejs__controls .mejs__time-rail .mejs__time-float-corner {
+    top: auto;
+    bottom: -9px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 6px solid #fff;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+.mejs__controls .mejs__time-rail .mejs__time-current {
+    background: #A62D4D none repeat scroll 0 0;
+}
+.mejs__controls .mejs__time-handle {
+    display: none;
+}
+
+/*!
+ * ODTWARZACZ END ----------------------------------------------
+ */
+
+
+/*!
  * GALERIA START
  */
 
