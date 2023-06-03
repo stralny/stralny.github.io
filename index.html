@@ -221,6 +221,7 @@
 		            </div>	
             </div>
 
+            <p style="text-align: center;">
             <table style="max-width: 796px; align: center;">
               <tr>
 
@@ -228,18 +229,11 @@
 
                   <div class="audio-player">
                     <button id="playButton" class="play-button">
-                      <img
-                        id="playButtonIcon"
-                        class="play-button-icon"
-                        src="img/player/play.svg"
-                        alt="Play Button"
-                      />
+                      <i id="playButtonIcon" class="fa-regular fa-circle-play"></i>
                     </button>
-            
                     <div class="player-body">
                       <p class="title">Artist - Track Title</p>
                       <div id="waveform" class="waveform"></div>
-            
                       <div class="controls">
                         <div class="volume">
                           <img
@@ -258,11 +252,10 @@
                             value="50"
                           />
                         </div>
-            
                         <div class="timecode">
-                          <span id="currentTime">00:00</span>
+                          <span id="currentTime">00:00:00</span>
                           <span>/</span>
-                          <span id="totalDuration">00:00</span>
+                          <span id="totalDuration">00:00:00</span>
                         </div>
                       </div>
                     </div>
@@ -281,6 +274,7 @@
                 
               </tr>
             </table>
+            </p>
             
             <br><br>
             
