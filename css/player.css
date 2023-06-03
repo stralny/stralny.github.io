@@ -1,10 +1,10 @@
 /* Audio player */
 .audio-player {
     width: 100%;
-    max-width: 100rem;
+    max-width: 450px;
     display: flex;
     margin: 2rem 1rem;
-    background: rgba(47, 56, 64, 0.7)
+    background-color: rgba(47, 56, 64, 0.7);
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 10px 20px 5px #222;
     font-family: "Raleway",sans-serif;
@@ -12,8 +12,8 @@
   
   /* Play button */
   .play-button {
-    min-width: 13rem;
-    min-height: 13rem;
+    min-width: 32px;
+    min-height: 32px;
   
     /* Reset default button styles */
     border: none;
@@ -31,7 +31,7 @@
   /* Audio track title */
   .title {
     width: 100%;
-    font-weight: 600;
+    font-weight: 300;
   }
   
   /* Main waveform */
@@ -63,7 +63,6 @@
   .volume-slider {
     margin: 0 1rem;
     cursor: pointer;
-  
     width: 100%;
     outline: none;
     -webkit-appearance: none;

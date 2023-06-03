@@ -17,8 +17,8 @@ const initializeWavesurfer = () => {
     container: '#waveform',
     responsive: true,
     height: 80,
-    waveColor: '#ff5501',
-    progressColor: '#d44700',
+    waveColor: '#A62D4D',
+    progressColor: '#801C36',
   });
 };
 
