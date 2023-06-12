@@ -15,6 +15,8 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/progres-bar.css">
 
     <!-- Font Awesome -->
 	  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -217,6 +219,35 @@
 			              <hr style="max-width: 796px;">
 			              <br>
                 
+            <!-- Media Player-->
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/1.mp3"></audio>
+            </div>
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/2.mp3"></audio>
+            </div>
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/3.mp3"></audio>
+            </div>
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/4.mp3"></audio>
+            </div>
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/5.mp3"></audio>
+            </div>
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/6.mp3"></audio>
+            </div>
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/7.mp3"></audio>
+            </div>
+            <div class="mediPlayer">
+              <audio class="listen" preload="none" data-size="64" src="audio/8.mp3"></audio>
+            </div>
+            <!-- Media Player / -->
+
+            <br>
+
                     <div class="gallery" id="gallery">
 
                     <div class="gallery-item">
@@ -293,6 +324,14 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
     <script src="js/gallery.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/player.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.mediPlayer').mediaPlayer();
+        });
+    </script> 
 
 	<!-- SLIDESHOW -->
 	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
