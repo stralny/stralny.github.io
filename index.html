@@ -14,9 +14,12 @@
 
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/gallery.css" rel="stylesheet">
+<!-- 
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+ -->
     <link rel="stylesheet" href="css/progres-bar.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
     <!-- Font Awesome -->
 	  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -221,7 +224,9 @@
                 
                     <!-- Media Player-->
                     <div class="ramka-red" style="background: rgba(0, 0, 0, 0.65);">
-                      <h2 style="color:#F2D479"> - AUDIO DEMOS - </h2>
+                      <p style="color: #F2B56B; font-size: 16px; font-weight: bold; text-align: center;">
+                        - AUDIO DEMOS - 
+                      </p>
                     <table style="width:100%; border:0px;">
                       <tr>
                         <td>
@@ -315,25 +320,20 @@
                     <br>
 
                     <div class="ramka-red" style="background: rgba(0, 0, 0, 0.65);">
-                    <h2 style="color:#F2D479"> - GALLERY - </h2>
-
-                    <div class="gallery" id="gallery">
-
-                    <div class="gallery-item">
-                    <div class="content"><img src="img/portfolio/sub1.jpg" alt=""></div>
+                      <p style="color: #F2B56B; font-size: 16px; font-weight: bold; text-align: center;">
+                        - GALLERY - 
+                      </p>
+                      <div class="photo-gallery">
+                        <div class="container">
+                            <div class="row photos">
+                                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/portfolio/sub1.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/desk.jpg"></a></div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/portfolio/sub2.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/building.jpg"></a></div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/portfolio/sub3.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/loft.jpg"></a></div>
+                           </div>
+                        </div>
                     </div>
 
-                    <div class="gallery-item">
-                    <div class="content"><img src="img/portfolio/sub2.jpg" alt=""></div>
-                    </div>
-
-                    <div class="gallery-item">
-                    <div class="content"><img src="img/portfolio/sub3.jpg" alt=""></div>
-                    </div>
-
-                    </div>
-
-                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -393,9 +393,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    <script src="js/gallery.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="js/player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
     <script>
         $(document).ready(function () {
