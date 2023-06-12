@@ -116,7 +116,7 @@
                 '<g class="shape">',
                 '<circle class="progress-track" cx="50" cy="50" r="47.45" stroke="#becce1" stroke-opacity="0.25" stroke-linecap="round" fill="none" stroke-width="5"/>',
                 '<circle class="precache-bar" cx="50" cy="50" r="47.45" stroke="#302F32" stroke-opacity="0.25" stroke-linecap="round" fill="none" stroke-width="5" transform="rotate(-90 50 50)"/>',
-                '<circle class="progress-bar" cx="50" cy="50" r="47.45" stroke="#009EF8" stroke-opacity="1" stroke-linecap="round" fill="none" stroke-width="5" transform="rotate(-90 50 50)"/>',
+                '<circle class="progress-bar" cx="50" cy="50" r="47.45" stroke="#6C2034" stroke-opacity="1" stroke-linecap="round" fill="none" stroke-width="5" transform="rotate(-90 50 50)"/>',
                 '</g>',
                 '<circle class="controls" cx="50" cy="50" r="45" stroke="none" fill="#000000" opacity="0.0" pointer-events="all"/>',
                 '<g class="control pause">',
@@ -124,10 +124,10 @@
                 '<line x1="60" y1="35" x2="60" y2="65" stroke="#000000" fill="none" stroke-width="8" stroke-linecap="round"/>',
                 '</g>',
                 '<g class="control play">',
-                '<polygon points="45,35 65,50 45,65" fill="#009EF8" stroke-width="0"></polygon>',
+                '<polygon points="45,35 65,50 45,65" fill="#A62D4D" stroke-width="0"></polygon>',
                 '</g>',
                 '<g class="control stop">',
-                '<rect x="35" y="35" width="30" height="30" stroke="#000000" fill="none" stroke-width="1"/>',
+                '<rect x="35" y="35" width="30" height="30" stroke="#FFFFFF" fill="none" stroke-width="1"/>',
                 '</g>',
                 '</svg>'];
 
