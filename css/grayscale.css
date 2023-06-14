@@ -261,15 +261,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-.ramka-red
-	{
-    	border-style: solid;
-        border-width: 1px;
-        border-color: #A62D4D;
-        border-radius: 6px;
-  		padding: 48px;
-    }
-
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
@@ -284,6 +275,16 @@ a:focus {
         margin-top: 250px;
     }
 }
+
+.ramka-red
+	{
+    	border-style: solid;
+        border-width: 1px;
+        border-color: #A62D4D;
+        border-radius: 6px;
+  		padding: 48px;
+    }
+
 
 .btn {
     border-radius: 0;
