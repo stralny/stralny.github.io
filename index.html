@@ -15,9 +15,10 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
     <link rel="stylesheet" href="css/progres-bar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="css/lightboxgallery-min.css">
-    <link rel="stylesheet" href="css/lightboxgallery-style.css">
+    <!-- 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+       -->
+    <link rel="stylesheet" href="css/jquery.flex-images.css">
 
     <!-- Font Awesome -->
 	  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -317,32 +318,26 @@
                     <br>
               </div>
 
-      <div class="lightboxgallery-gallery clearfix">
+               <!-- PORTFOLIO GALLERIA -->
+
+               <div style="max-width:908px;margin:auto;padding:0 10px 10px">
+                <div id="galeria" class="flex-images">
+                    <div class="item" data-w="400" data-h="400"><img src="img/portfolio/sub1.jpg"></div>
+                    <div class="item" data-w="400" data-h="400"><img src="img/portfolio/sub2.jpg"></div>
+                    <div class="item" data-w="400" data-h="400"><img src="img/portfolio/sub3.jpg"></div>
+                    
+                    <div class="item" data-w="400" data-h="400">
+                        <iframe style="width:100%;height:100%;border:0" src="vid/portfolio/stories1.mp4" allowfullscreen></iframe>
+                    </div>
         
-        <a class="lightboxgallery-gallery-item" target="_blank" href="img/portfolio/sub1.jpg" data-title="DATA TITLE" data-alt="DATA ALT" data-desc="data alt...">
-          <div>
-            <img src="img/portfolio/sub1-th.jpg" title="TITLE" alt="ALT">
-            <div class="lightboxgallery-gallery-item-content">
-              <span class="lightboxgallery-gallery-item-title">ITEM TITLE</span>
+                    <div class="item" data-w="400" data-h="400">
+                        <iframe style="width:100%;height:100%;border:0" src="vid/portfolio/stories2.mp4" allowfullscreen></iframe>
+                    </div>
+        
+                </div>
             </div>
-          </div>
-        </a>
-        <a class="lightboxgallery-gallery-item" target="_blank" href="img/portfolio/sub2.jpg" data-title="DATA TITLE" data-alt="DATA ALT" data-desc="data alt...">
-          <div>
-            <img src="img/portfolio/sub2-th.jpg" title="TITLE" alt="ALT">
-            <div class="lightboxgallery-gallery-item-content">
-              <span class="lightboxgallery-gallery-item-title">ITEM TITLE</span>
-            </div>
-          </div>
-        </a>
-        <a class="lightboxgallery-gallery-item" target="_blank" href="img/portfolio/sub3.jpg" data-title="DATA TITLE" data-alt="DATA ALT" data-desc="data alt...">
-          <div>
-            <img src="img/portfolio/sub3-th.jpg" title="TITLE" alt="ALT">
-            <div class="lightboxgallery-gallery-item-content">
-              <span class="lightboxgallery-gallery-item-title">ITEM TITLE</span>
-            </div>
-          </div>
-        </a>
+
+               <!-- / PORTFOLIO GALLERIA / -->
 
     </div>
 
@@ -422,19 +417,8 @@
 	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 
   <!-- galeria -->
-  <script src="js/lightboxgallery-min.js"></script>
-  <script type="text/javascript">
-  jQuery(function($) {
-    $(document).on('click', '.lightboxgallery-gallery-item', function(event) {
-      event.preventDefault();
-      $(this).lightboxgallery({
-        showCounter: true,
-        showTitle: true,
-        showDescription: true
-      });
-    });
-  });
-  </script>
+  <script src="js/jquery.flex-images.js"></script>
+  <!-- / galeria / -->
 
 </body>
 
