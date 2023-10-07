@@ -19,10 +19,9 @@
     <link rel="stylesheet" href="css/progres-bar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
-    <!-- Imgage/Video Gallery
-    <link rel="stylesheet" href="">
-     -->
-
+    <!-- Imgage/Video Gallery -->
+    <link href="css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+   
     <!-- Font Awesome -->
 	  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="fontawesome/css/solid.css" rel="stylesheet">
@@ -318,23 +317,39 @@
                     </table>
                     </div>
                     <!-- Media Player / -->
-                    <br>
 
-               <!-- PORTFOLIO GALLERIA -->
+                <!-- PORTFOLIO GALLERIA -->
 
-               <a href="#lightbox" class="lightbox-toggle"
-               data-lightbox-type="video"
-               data-lightbox-content="vid/portfolio/stories1.mp4">
-              Video</a>
-            
-            <a href="#lightbox" class="lightbox-toggle"
-               data-lightbox-type="image"
-               data-lightbox-content="img/portfolio/sub1.jpg">
-              Image</a>
+                  <div ID="ngy2p" data-nanogallery2='{
+                    "thumbnailWidth": "400",
+                    "thumbnailHeight": "400",
+                    "colorScheme": {
+                    "thumbnail": {
+                    "background": "rgba(0,0,0,0)"
+                    }
+                    },
+                    "thumbnailDisplayTransitionDuration": 500,
+                    "thumbnailDisplayInterval": 25,
+                    "thumbnailLabel": {
+                    "position": "overImageOnBottom",
+                    "display": false
+                    },
+                    "thumbnailHoverEffect2": "labelOpacity50|imageScaleIn80",
+                    "thumbnailAlignment": "center",
+                    "thumbnailOpenImage": true
+                  }'>
 
-               <!-- / PORTFOLIO GALLERIA / -->
-
+                <a href="vid/portfolio/stories1.mp4" data-ngthumb="img/portfolio/sub1th.jpg" data-ngdesc="">Stories 1</a>
+                <a href="vid/portfolio/stories2.mp4" data-ngthumb="img/portfolio/sub1th.jpg" data-ngdesc="">Stories 2</a>
+                <a href="img/portfolio/sub1.jpg" data-ngthumb="img/portfolio/sub1th.jpg" data-ngdesc="">Sub 1</a>
+                <a href="img/portfolio/sub2.jpg" data-ngthumb="img/portfolio/sub2th.jpg" data-ngdesc="">Sub 2</a>
+                <a href="img/portfolio/sub3.jpg" data-ngthumb="img/portfolio/sub3th.jpg" data-ngdesc="">Sub 3</a>
+        
               </div>
+
+              <!-- / PORTFOLIO GALLERIA / -->
+
+            </div>
 
     </div>
 
@@ -413,9 +428,8 @@
 	<!-- SLIDESHOW -->
 	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 
-  <!-- galeria 
-  <script src=""></script>
-  -->
+  <!-- galeria -->
+  <script type="text/javascript" src="js/jquery.nanogallery2.min.js"></script>
   <!-- / galeria / -->
 
 </body>
