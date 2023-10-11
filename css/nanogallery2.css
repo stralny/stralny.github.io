@@ -10,7 +10,7 @@
 }
  
 .nGY2 .ngy2_container {
-  width: 75%;
+  width: 900px;
   min-width: 100px; /* to display something even if parent has display:inline-block */
 	font-size: 1.0em;
 	line-height: normal;
@@ -199,7 +199,7 @@
   perspective: 900px;
   text-align: left;
   position: relative;
-	width: 100%;
+	width: 900px;
   height: 100%;
 	overflow: hidden;
 	display: inline-block;
