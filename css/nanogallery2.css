@@ -10,7 +10,7 @@
 }
  
 .nGY2 .ngy2_container {
-  width: 100%;
+  width: 75%;
   min-width: 100px; /* to display something even if parent has display:inline-block */
 	font-size: 1.0em;
 	line-height: normal;
