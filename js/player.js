@@ -124,7 +124,7 @@
                 '<line x1="60" y1="35" x2="60" y2="65" stroke="#000000" fill="none" stroke-width="8" stroke-linecap="round"/>',
                 '</g>',
                 '<g class="control play">',
-                '<polygon points="45,35 65,50 45,65" fill="#C70000" stroke-width="0"></polygon>',
+                '<polygon points="45,35 65,50 45,65" fill="#AE0000" stroke-width="0"></polygon>',
                 '</g>',
                 '<g class="control stop">',
                 '<rect x="35" y="35" width="30" height="30" stroke="#FFFFFF" fill="none" stroke-width="1"/>',
