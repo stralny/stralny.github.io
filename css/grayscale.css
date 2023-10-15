@@ -416,7 +416,7 @@ body {
     font-size: 128px;
     padding: 0 30px;
     line-height: 120px;
-    color: rgba(166,45,77, 0.75);
+    color: rgba(174, 0, 0, 0.75);
 }
 .slideshow li:nth-child(1) span { background-image: url(../img/slider/6.jpg) }
 .slideshow li:nth-child(2) span {
