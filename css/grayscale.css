@@ -767,7 +767,7 @@ input::placeholder{
 }
 
 .sendbtn{
-    background-color: #0fbcf9;
+    background-color: #AE0000;
     border-radius: 0 0 10px 10px;
     cursor: pointer;
     text-transform: uppercase;
@@ -781,7 +781,7 @@ input::placeholder{
 
 @media screen and (max-width:1200px) {
     .contact-box{
-        max-width: 100%;
+        max-width: 50%;
     }
 
     .nameInput,.emailInput{
@@ -793,3 +793,6 @@ input::placeholder{
         border-radius: 10px 10px 0 0;
     }
 }
+/*!
+ * contact form END
+ */
