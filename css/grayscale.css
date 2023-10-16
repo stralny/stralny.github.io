@@ -720,3 +720,76 @@ body {
 		left: auto;
 	}
 }
+
+/*!
+ * contact form
+ */
+ .contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    background: #ffffff12;
+    padding: 14px;
+    color: #fff;
+    border: 0;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    background: #ffffff12;
+    padding: 14px;
+    color: #fff;
+    border: 0;
+    resize: none;
+    height: 160px;
+}
+
+input::placeholder{
+    color: #888;
+}
+
+.nameInput,.emailInput{
+    width: calc(50% - 5px);
+}
+
+.nameInput{
+    border-top-left-radius: 10px;
+}
+
+.emailInput{
+    border-top-right-radius: 10px;
+}
+
+.sendbtn{
+    background-color: #0fbcf9;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+.sendbtn:hover{
+    opacity: .7;
+}
+
+@media screen and (max-width:1200px) {
+    .contact-box{
+        max-width: 100%;
+    }
+
+    .nameInput,.emailInput{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .nameInput{
+        border-radius: 10px 10px 0 0;
+    }
+}
