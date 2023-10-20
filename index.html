@@ -380,13 +380,14 @@
             <p>Contact Form</p>
             <br>
   
-            <form action="" class="form-check">
-              <input type="text" class="nameInput" placeholder="Name">
-              <input type="email" class="emailInput" placeholder="E-mail">
-              <input type="text" class="subjectInput" placeholder="Subject">
-              <textarea  class="msgArea" placeholder="Message:"></textarea>
+            <form method="post" action="" id="my-form" class="contact-form">
+              <input type="text" class="nameInput" name="name" placeholder="Name">
+              <input type="email" class="emailInput" name="mail" placeholder="E-mail">
+              <input type="text" class="subjectInput" name="subject" placeholder="Subject">
+              <textarea  class="msgArea" name="wiadomosc" placeholder="Message:"></textarea>
               <input type="submit" class="sendbtn" placeholder="Send Message">
-          </form>
+            </form>
+
           </th>
           <th style="width:40%">
   
