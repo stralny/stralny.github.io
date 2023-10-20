@@ -380,31 +380,13 @@
             <p>Contact Form</p>
             <br>
 
-            <form id="contact_form" name="contact_form" method="post">
-              <div class="mb-5 row">
-                  <div class="col">
-                      <label>Name</label>
-                      <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
-                  </div>
-                  <div class="col">
-                      <label for="email_addr">Email address</label>
-                      <input type="email" required maxlength="64" class="form-control" id="email_addr" name="email"
-                          placeholder="your@email.com">
-                  </div>
-              </div>
-              <div class="mb-5 row">
-                  <div class="col">
-                      <label for="phone_input">Subject</label>
-                      <input type="tel" required maxlength="200" class="form-control" id="subject" name="Phone"
-                          placeholder="">
-                  </div>
-              </div>
-              <div class="mb-5">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" id="message" name="message" rows="5"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary px-4 btn-lg">Send message</button>
-          </form>
+            <form method="post" action="" id="my-form" class="contact-form">
+              <input type="text" class="nameInput" name="name" placeholder="Name">
+              <input type="email" class="emailInput" name="mail" placeholder="E-mail">
+              <input type="text" class="subjectInput" name="subject" placeholder="Subject">
+              <textarea  class="msgArea" name="wiadomosc" placeholder="Message:"></textarea>
+              <input type="submit" class="sendbtn" placeholder="Send Message">
+            </form>
 
           </th>
           <th style="width:40%">
