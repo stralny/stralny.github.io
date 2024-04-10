@@ -383,19 +383,12 @@
             <p>Contact Form</p>
             <br>
 
-            <form
-            action="https://formspree.io/f/mleqolzo"
-            method="POST"
-          >
-            <label>
-              Your email:
-              <input type="email" name="email">
-            </label>
-            <label>
-              Your message:
-              <textarea name="message"></textarea>
-            </label>
-            <button type="submit">Send</button>
+            <form method="post" action="" id="my-form" class="contact-form">
+              <input type="text" class="nameInput" name="name" placeholder="Name">
+              <input type="email" class="emailInput" name="mail" placeholder="E-mail">
+              <input type="text" class="subjectInput" name="subject" placeholder="Subject">
+              <textarea  class="msgArea" name="wiadomosc" placeholder="Message:"></textarea>
+              <input type="submit" class="sendbtn" placeholder="Send Message">
             </form>
 
           </th>
