@@ -382,12 +382,21 @@
           <th style="width:60%">
             <p>Contact Form</p>
             <br>
-              <form action="https://formspree.io/f/mleqolzo" method="POST">
-                <input type="hidden" name="_subject" value="[STRALNY.GITHUB.IO] - KONTAKT" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Type your message" required></textarea>
-                <button type="submit">Send</button>
-              </form>
+
+            <form
+            action="https://formspree.io/f/mleqolzo"
+            method="POST"
+          >
+            <label>
+              Your email:
+              <input type="email" name="email">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+            </form>
 
           </th>
           <th style="width:40%">
