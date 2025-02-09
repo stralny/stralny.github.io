@@ -1,472 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <meta name="description" content="">
-    <meta name="author" content="Jacob STRALNY K.">
-    <title>[STRALNY] | AUDIO | GFX | WEB |</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Audio Player -->
-    <link rel="stylesheet" href="css/progres-bar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-
-    <!-- Imgage/Video Gallery -->
-    <link href="css/nanogallery2.min.css" rel="stylesheet" type="text/css">
-   
-    <!-- Font Awesome -->
-	  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="fontawesome/css/solid.css" rel="stylesheet">
-    <link href="fontawesome/css/brands.css" rel="stylesheet">
-    <link href="fontawesome/css/v4-shims.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light" style="font-size: 36px; font-weight: 200">stralny</span> 
-                </a>
-                </a>
+﻿<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title>STRALNY</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="STRALNY">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="description" content="AUDIO | GRAPHICS AND VIDEO | WEB | CODING | Electronics and PC equipment services" />
+        <meta name="keywords" content="" />
+        <meta name="robots" content="index,allow">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/vendors.min.css"/>
+        <link rel="stylesheet" href="css/icon.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        <link rel="stylesheet" href="css/stralny.css" />
+    </head>
+    <body class="overflow-x-hidden" data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#393334" >
+        <header> 
+            <div class="icon-bar">
+                <a href="mailto:jacobaroi.th@gmail.com" class="email"><i class="bi bi-envelope-at"></i></a>
+                <a href="https://line.me/ti/p/lGXZZXLl-T" class="lineapp"><i class="bi bi-line"></i></a>
+                <a href="https://wa.link/pbh55b" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://t.me/jacobkraus" class="telegram"><i class="bi bi-telegram"></i></a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-			              <a class="page-scroll" href="#services"><b>SERVICES</b></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio"><b>PORTFOLIO</b></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact"><b>CONTACT</b></a>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg header-dark bg-black2 header-reverse">
+                <div class="container-fluid">
+                    <div class="col-auto col-lg-2 mt-10px mb-10px me-auto stralny-logo">
+                        <p>stralny</p>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="full-screen md-h-600px sm-h-500px position-relative bg-dark-gray-transparent-light background-position-left-top">
+            <div id="particles-style-01" class="position-absolute h-100 top-0 left-0 w-100" 
+            data-particle="true" 
+            data-particle-options='{ 
+                "particles": { 
+                    "number": { 
+                        "value": 100, 
+                    "density": { 
+                        "enable": true, 
+                        "value_area": 800 } }, 
+                    "color": { 
+                        "value": "#FFFFFF" }, 
+                    "shape": { 
+                        "type": "circle", 
+                        "stroke": { 
+                            "width": 0, 
+                            "color": "#FFFFFF" }, 
+                        "polygon": { 
+                            "nb_sides": 5 }, 
+                        "image": { 
+                            "src": "", 
+                            "width": 100, 
+                            "height": 100 } }, 
+                    "opacity": { 
+                        "value": 0.4, 
+                        "random": false,
+                        "anim": {
+                        "enable": false, 
+                        "speed": 1, 
+                        "opacity_min": 0.1, 
+                        "sync": false } }, 
+                    "size": { 
+                        "value": 4, 
+                        "random": true, 
+                    "anim": { 
+                        "enable": false, 
+                        "speed": 50, 
+                        "size_min": 0.1, 
+                        "sync": false } }, 
+                    "line_linked": { 
+                        "enable": true, 
+                        "distance": 150, 
+                        "color": "#232323", 
+                        "opacity": 0.3, 
+                        "width": 1 }, 
+                    "move": { 
+                        "enable": true, 
+                        "speed": 7, 
+                        "direction": "none", 
+                        "random": true, 
+                        "straight": false, 
+                        "out_mode": "out", 
+                        "bounce": false, 
+                        "attract": { 
+                            "enable": true, 
+                            "rotateX": 600, 
+                            "rotateY": 1200 } } }, 
+                    "interactivity": { 
+                        "detect_on": "canvas", 
+                        "events": { 
+                            "onhover": { 
+                                "enable": true, 
+                                "mode": "repulse" }, 
+                            "onclick": { 
+                                "enable": false,
+                                "mode": "push" }, 
+                            "resize": true }, 
+                        "modes": { 
+                            "grab": { 
+                                "distance": 400, 
+                                "line_linked": { 
+                                    "opacity": 1 } }, 
+                            "bubble": { 
+                                "distance": 400, 
+                                "size": 40, 
+                                "duration": 2, 
+                                "opacity": 8, 
+                                "speed": 3 }, 
+                            "repulse": { 
+                                "distance": 50, 
+                                "duration": 0.5 }, 
+                            "push": { 
+                                "particles_nb": 4 }, 
+                            "remove": { 
+                                "particles_nb": 2 } } }, 
+                        "retina_detect": true}'>
+                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style=" min-width: 100%; min-height: 100%; width: auto; height: auto; position:absolute; z-index: -1;">
+                            <source src="vid/stralny_bg_comp.mp4" type="video/mp4">
+                          </video>
+                </div>
+                <div class="container h-100">
+                <div class="row align-items-center h-100 justify-content-center">
+                    <div class="col-md-12 position-relative text-white d-flex flex-column justify-content-center text-center h-100">
+                        <span class="fs-80 md-fs-80 xs-fs-80 position-relative top-minus-30px lg-top-minus-30px xs-top-minus-10px ls-minus-2px md-minus-8px text-white fw-400 text-shadow-double-large" 
+                        data-anime='{ "opacity": [0, 1], "easing": "easeOutQuad", "duration": 1000, "delay": 400 }'>SITE UNDER CONSTRUCTION</span>          
+                        </div>
+                    </div>
+                </div> 
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-      <header class="intro">
-        <div class="intro-body">
-		      <ul class="slideshow">
-			      <li><span>Image 01</span><div><h3>MIX & MASTERING</h3></div></li>
-			      <li><span>Image 02</span><div><h3>EDITING AUDIO</h3></div></li>
-			      <li><span>Image 03</span><div><h3>GHOSTPRODUCING</h3></div></li>
-			      <li><span>Image 04</span><div><h3>GRAPHICS</h3></div></li>
-			      <li><span>Image 05</span><div><h3>WEB SITES</h3></div></li>
-			      <li><span>Image 06</span><div><h3>WEB SHOPS</h3></div></li>
-		      </ul>
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                      <h1 class="brand-heading">Hi! I'm Jacob</h1>
-                      <p class="intro-text" style="font-size: 15px">
-				                <span>&#127929;</span> Artist | <span>&#127925;</span> Producer<br>
-				                <span>&#127898;</span> Sound Engineer | <span>&#9889;</span> Electronics Technician<br>
-				                <span>&#127912;</span> Graphic Designer | <span>&#127760;</span> Webmaster | <span>&#128187;</span> Programmer</br>
-			                </p>
-                        <a href="#services" class="btn btn-circle page-scroll">
-                          <i class="fa-solid fa-arrow-down fa-beat-fade"></i>
-                        </a>
-                  </div>
+        </section>
+        <footer class="bg-black pt-2 pb-2 background-position-center-top" style="background-image: url('images/dotted-pattern.svg')">
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row align-items-center">  
+                        <div class="text-center text-lg-end">
+                            <span class="fs-15">&copy; Copyright 2025 <a href="https://www.stralny.github.io" target="_blank" rel="noopener noreferrer" class="text-decoration-line-bottom text-white">STRALNY</a></span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-      </header>
-
-    <!-- Services Section -->
-    <section id="services" class="container content-section text-center">
-
-			<div class="row">
-
-				<div class="col-lg-8 col-lg-offset-2">
-
-					<h1>|-  SERVICES  -|</h1>
-
-          <br><br>
-          
-          <div class="ramka-red">
-
-            <br>
-
-					  <h2 style="color:#F2D479"> - SOUND - </h2>
-
-					  <p style="color: #F2B56B; font-size: 16px; font-weight: bold; text-align: center;">
-              | MIX | MASTERING | EDITING | GHOSTPRODUCING | LEARNING |
-            </p>
-          
-            <br>
-          
-            <p style="color: #D99559; font-size: 16px; text-align: center;">
-              Any style, any genre, Professional results and incredible sound, Advanced mastering options.
-              <br>
-              I can teach you how to make music and how to handle sound - private lessons.
-            </p>
-
-            <br>
-
-            <p style="color: #D99559; font-size: 14px; text-align: center;">
-              Example services:
-              <br>
-              Mix (7 tracks each 16 stems) and mastered for CD, Analog mastering, Mastering for stream (Spotify, YouTube etc.)
-            </p>
-            
-          </div>
-
-            <br>
-
-          <div class="ramka-red">
-
-            <br>
-  
-            <h2 style="color:#F2D479"> - GRAPHICS - </h2>
-  
-            <p style="color: #F2B56B; font-size: 16px; font-weight: bold; text-align: center;">
-              | LOGOS | SOCIAL MEDIA | ANIMATIONS | WEB DESINGN |
-            </p>
-            
-            <br>
-            
-            <p style="color: #D99559; font-size: 16px; text-align: center;">
-              I can do everything!
-              <br>
-              Graphics and video.
-            </p>
-  
-            <br>
-  
-            <p style="color: #D99559; font-size: 14px; text-align: center;">
-              Example services:
-              <br>
-              Webshop theme, Instagram posts, Instagram video reels
-            </p>
-              
-          </div>
-  
-            <br>
-
-          <div class="ramka-red">
-
-            <br>
-    
-            <h2 style="color:#F2D479"> - WEB - </h2>
-    
-            <p style="color: #F2B56B; font-size: 16px; font-weight: bold; text-align: center;">
-              | WEBSITES | WEBSHOPS | SITE MIGRATIONS | WEB ADMINISTRATION | BLOCKCHAIN | CODING |
-            </p>
-              
-            <br>
-              
-            <p style="color: #D99559; font-size: 16px; text-align: center;">
-              Unique websites and online stores designed for you, management and maintenance of your website, social media management...
-              <br>
-              I can make simple bot's and apps too.
-            </p>
-    
-            <br>
-    
-            <p style="color: #D99559; font-size: 14px; text-align: center;">
-              Example services:
-              <br>
-              Webshop from 0 (hosting, domain, installation, configuration), Instagram posts, Instagram video reels, Smart Chain contract
-            </p>
-                
-          </div>
-    
-              <br>
-        
-        </div>
-
-			</div>
-
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="content-section text-center">
-      <div class="portfolio-section">
-
-        <div class="container">
-
-          <div class="col-lg-8 col-lg-offset-2">
-            <h1>|-  PORTFOLIO  -|</h1>
-			      <hr style="max-width: 796px;">
-			      <br>
-                    <!-- Media Player-->
-                    <div class="ramka-red" style="background: rgba(0, 0, 0, 0.65);">
-                      <p style="color: #F2B56B; font-size: 16px; font-weight: bold; text-align: center;">
-                        - AUDIO DEMOS - 
-                      </p>
-                      <table style="width:100%; border:0px;">
-                      <tr>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/1.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/2.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/3.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/4.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/5.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/6.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/7.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/8.mp3"></audio>
-                          </div>
-                        </td>
-                      </tr>
-                      <br>
-                      <tr>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/9.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/10.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/11.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/12.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/13.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/14.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/15.mp3"></audio>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="mediPlayer">
-                            <audio class="listen" preload="none" data-size="64" src="audio/16.mp3"></audio>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                    <!-- Media Player / -->
-                    <br><br>
-          </div>
-
-                <!-- PORTFOLIO GALLERIA -->
-                <div ID="ngy2p" data-nanogallery2='{
-                  "thumbnailWidth": "300",
-                  "thumbnailHeight": "300",
-                  "colorScheme": {
-                    "thumbnail": {
-                      "background": "rgba(0,0,0,0)"
-                    }
-                  },
-                  "thumbnailDisplayTransitionDuration": 250,
-                  "thumbnailDisplayInterval": 20,
-                  "thumbnailLabel": {
-                    "position": "overImageOnBottom",
-                    "displayDescription": true,
-                    "descriptionMultiLine": true
-                  },
-                  "allowHTMLinData": true,
-                  "thumbnailHoverEffect2": "labelOpacity50|imageScaleIn80",
-                  "thumbnailAlignment": "center",
-                  "displayBreadcrumb": false,
-                  "breadcrumbAutoHideTopLevel": false,
-                  "breadcrumbOnlyCurrentLevel": false,
-                  "thumbnailOpenImage": true
-                  }'>
-
-                  <a href="img/portfolio/staticpage2.png" data-ngthumb="img/portfolio/staticpage2-th.jpg" data-ngdesc="Contact one page">Weed Shop One</a>
-                  <a href="vid/portfolio/weedshopone_1.mp4" data-ngthumb="vid/portfolio/weedshopone_1-th.gif" data-ngdesc="Video post for Instagram/Facebook">Weed Shop One</a>
-                  <a href="img/portfolio/staticpage1.png" data-ngthumb="img/portfolio/staticpage1-th.jpg" data-ngdesc="Contact one page">Flying_4Free</a>
-                  <a href="vid/portfolio/stories1.mp4" data-ngthumb="vid/portfolio/stories1-th.gif" data-ngdesc="Video post for Instagram/Facebook">Stories #1</a>
-                  <a href="vid/portfolio/stories2.mp4" data-ngthumb="vid/portfolio/stories2-th.gif" data-ngdesc="Video post for Instagram/Facebook">Stories #2</a>
-                  <a href="img/portfolio/buyfollowers.png" data-ngthumb="img/portfolio/buyfollowers-th.gif" data-ngdesc="Simple website and shop based on Wordpress and WooCommerce engine">BuyFollowers.PL</a>
-                  <a href="vid/portfolio/intro_dead.mp4" data-ngthumb="vid/portfolio/intro_dead-th.gif" data-ngdesc="Animation with nickname text. ">Intro #1</a>
-                  <a href="img/portfolio/sub1.jpg" data-ngthumb="img/portfolio/sub1-th.jpg" data-ngdesc="3D subwoofer box project">Sub 1</a>
-                  <a href="img/portfolio/sub2.jpg" data-ngthumb="img/portfolio/sub2-th.jpg" data-ngdesc="3D subwoofer box project">Sub 2</a>
-                  <a href="img/portfolio/sub3.jpg" data-ngthumb="img/portfolio/sub3-th.jpg" data-ngdesc="3D subwoofer box project">Sub 3</a>
-                  
-                </div>
-                <!-- / PORTFOLIO GALLERIA / -->
-
-        </div>          
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h1>|-  CONTACT  -|</h1>
-		<hr style="max-width: 796px;">
-		<br>
-		    
-      <p>How can I help you?</p>
-
-      <table style="width:100%">
-        <tr>
-          <th style="width:60%">
-            <p>Contact Form</p>
-            <br>
-
-            <form method="post" action="" id="my-form" class="contact-form">
-              <input type="text" class="nameInput" name="name" placeholder="Name">
-              <input type="email" class="emailInput" name="mail" placeholder="E-mail">
-              <input type="text" class="subjectInput" name="subject" placeholder="Subject">
-              <textarea  class="msgArea" name="wiadomosc" placeholder="Message:"></textarea>
-              <input type="submit" class="sendbtn" placeholder="Send Message">
-            </form>
-
-          </th>
-          <th style="width:40%">
-  
-            <center>
-
-            <ul class="list-inline banner-social-buttons">
-              <li>
-                <a href="https://t.me/stralny" class="btn btn-default btn-lg"><i class="fa-brands fa-telegram"></i> <span class="network-name">TELEGRAM</span></a>
-              </li>
-              <br><br>
-              <li>
-                <a href="https://wa.me/qr/JPWWJII7WNSUG1" class="btn btn-default btn-lg"><i class="fa-brands fa-whatsapp"></i> <span class="network-name">WHATSAPP</span></a>
-              </li>
-              <br><br>
-              <li>
-                <a href="https://instagram.com/stralny" class="btn btn-default btn-lg"><i class="fa-brands fa-instagram"></i> <span class="network-name">INSTAGRAM</span></a>
-              </li>
-              <br><br>
-              <li>
-                <a href="mailto:deadpolska@gmail.com" class="btn btn-default btn-lg"><i class="fa-regular fa-envelope"></i> <span class="network-name">MAIL</span></a>
-              </li>
-              </ul>
-
-              </center>
-          </th>
-        </tr>
-      </table>
-
-		<br><br><br><br><br><br><br><br><br><br>
-		    
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">			  
-            <p style="font-size:13px;">&copy; Copyright <script>document.write(new Date().getFullYear())</script> STRALNY<br>All rights reserved!</br></p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- not used?
-    <script src="js/jquery.fancybox.min.js"></script> 
-  -->
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-    <script src="js/player.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('.mediPlayer').mediaPlayer();
-        });
-    </script> 
-
-	<!-- SLIDESHOW -->
-	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
-
-  <!-- galeria -->
-  <script type="text/javascript" src="js/jquery.nanogallery2.min.js"></script>
-  <!-- / galeria / -->
-
-  <!-- contact form -->
-  <script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=wdfllose&n=n1.ratufa.io"></script>
-  <!-- / contact form / -->
-
-</body>
-
+        </footer>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>
